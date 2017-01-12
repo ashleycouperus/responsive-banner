@@ -6,6 +6,53 @@
 
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Georgia, serif;
+}
+
+header {
+  background-color: #495562;
+  color: #fff;
+}
+
+.banner-content {
+  background-image: linear-gradient(to top, rgba(73, 85, 98, 1), rgba(73, 85, 98, 0));
+}
+
+.btn {
+  background-color: #495562;
+  border-color: #97a49b;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 42em) {
+
+  header {
+    color: #fff;
+  }
+
+  .banner {
+    margin-left: 8em;
+    margin-top: 15em;
+    position: relative;
+  }
+
+  .btn {
+    background-color: transparent;
+    border-color: #efefef;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  img {
+    position: absolute;
+    max-height: 500px;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, 1), rgba(73, 85, 98, 0));
+  }
 }
 
 *, *::before, *::after {

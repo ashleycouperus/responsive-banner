@@ -522,17 +522,17 @@ ol > li::before {
   cursor: pointer;
   display: inline-block;
   padding: .375em .75em .42em;
-  background-color: #333;
+  background-color: #495562;
   border-radius: 4px;
-  border: 3px solid #333;
+  border: 3px solid #97a49b;
   color: #fff;
   text-decoration: none;
 }
 
 .btn:focus,
 .btn:hover {
-  background-color: #000;
-  border-color: #000;
+  background-color: #97a49b;
+  border-color: #97a49b;
   color: #fff;
 }
 
