@@ -33,7 +33,7 @@ p {
 .btn {
   border-color: #97a49b;
   background-color: transparent;
-  font-style: bold;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -41,11 +41,6 @@ p {
   background-color: #fff;
   color: #495562;
   border-color: #fff;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 42em) {
